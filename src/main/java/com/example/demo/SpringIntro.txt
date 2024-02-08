@@ -1,0 +1,61 @@
+ 
+ tightly coupled: when two or more classes are tightly coupled, that means dependend on
+                  each other. If one class changes, other class also will change.
+                  
+ loosely coupled: they are independent of each other. If one class changes, that has no
+                  affect on other and other class will not change. We need to use Interface.
+                  
+--------------------------------------------------------------------------------------------
+
+Spring Container:
+
+-  Core of the spring framework
+-  creates objects, it wires together, configures them
+-  manages the complete life cycle of the object from creation till destruction
+-  Spring container uses DI (Dependecy injection) to manage components
+-  Spring container manages spring beans and their life cycle.                  
+-  JVM is the container that runs Java application
+-  Spring container runs Spring application
+-  JVM contains Spring context
+ 
+ Spring IoC (Inversion of Control) creates runtime system for us.
+ - different types of IoC containers:
+ 
+ 1. Beanfactory container - basic IoC container provided by Spring.
+ 2. ApplicationContext container - advanced container provided by Spring. It is built on
+    the top of beanfactory container. It adds some enterprise specific functionalities for eg
+    ability to resolve textual messages from property file.
+ 3. Java based configuration - creats, manages and configurates the beans.
+    
+  If you are using APIs, web services, e.t.c. application ontext is preferred than beanfactory.
+  
+  
+ Java beans - objects inside JVM.
+ Spring IoC - container that creates objects according to the instructions written by the classes 
+                 and controls the entire life cycle of Springbeans from creation to destruction. 
+                 
+ POJO - simple Java object without any dependency is used to transfer data from one layer to another. 
+         It does not extend any class and does not implement any Interface. 
+         
+        Spring annotations:
+
+1. @component - generic annotation used in Spring
+2. @service   - used for service layer
+3. @controller - used for presentation layer
+4. @repository - used persistence layer 
+
+       Types of Spring boot applications:
+       
+1. spring-boot-starter         -> default
+2. spring-boot-starter-web     -> for web based applications
+3. spring-boot-starter-webflux -> for reactive web applications  
+
+  @springbootapplication       
+         
+         
+         
+         
+         
+                        
+                 
+                 
