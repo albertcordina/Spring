@@ -1,0 +1,18 @@
+            Spring Framework Application (within the Java classes)
+ 
+1.  Spring Boot -    Tomcat Server for you (helps to run the application in the wobsite)    
+2.  ORM         -    Object Releational Mapping/Management, Hibernate/JPA
+3.  Spring MVC  -    front end/design
+4.  Spring Core Dependency Injection - Reach loose coupling
+5.  AOP -       Aspect Oriented Programming
+      Authentication , Authorisation, Transaction Management
+   
+   Go to the : https://start.spring.io/  ,and create the Java project.      
+NOTE: Add the dependencies 'Spring Web' for 'full stack', i.e. the 'front' and 'back' end development.
+      
+      
+   The most recommended injections from Spring are:
+1. Constructor Injection
+2. Setter Injection
+
+    
