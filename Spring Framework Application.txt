@@ -5,7 +5,7 @@
 3.  Spring MVC  -    front end/design
 4.  Spring Core Dependency Injection - Reach loose coupling
 5.  AOP -       Aspect Oriented Programming
-      Authentication , Authorisation, Transaction Management
+        Authentication , Authorisation, Transaction Management
    
    Go to the : https://start.spring.io/  ,and create the Java project.      
 NOTE: Add the dependencies 'Spring Web' for 'full stack', i.e. the 'front' and 'back' end development.
